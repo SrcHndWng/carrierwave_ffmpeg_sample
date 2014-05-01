@@ -1,0 +1,14 @@
+== README
+
+This is a Video CRUD Sample Application with CarrierWave, FFmpeg.
+
+=== Environments
+
+* Ruby 2.1.0
+
+* Rails 4.1.0
+
+* CarrierWave
+
+* Streamio FFMPEG
+

@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+
+<p>
+  <strong>Video:</strong>
+</p>
+<p>
+  <%= link_to @article.video_url.to_s do %>
+      <%= image_tag(@article.video_url(:screenshot).to_s, id: "video", :alt => "screenshot") %>
+  <% end %>
+</p>
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
